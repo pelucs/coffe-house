@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffe House</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="button-to-top" onclick="buttonToTop()"><ion-icon name="arrow-up-circle-outline"></ion-icon></div>
+        <div class="message">
+            <span onclick="closeModal()"><ion-icon name="close-outline"></ion-icon></span>
+            <h1><ion-icon name="alert-circle-outline"></ion-icon>Aviso</h1>
+            <p>Este site é apenas uma demostração de layout, desconsidere todos os preços e etc.</p>
+        </div>
+
+        <header>
+            <div class="logo-box">
+                <div class="logo"><ion-icon name="invert-mode-outline"></ion-icon></div>
+                <h1>Coffe House</h1>
+            </div>
+
+            <nav id="nav">
+                <div class="menu-hamb" onclick="menuHamb()"></div>
+                <ul class="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Cardápio</a></li>
+                    <li><a href="#">Reservar</a></li>
+                    <li><a href="#">Novidades</a></li>
+                    <li><a href="#">Mais</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="section-1">
+            <div class="content left"  data-animate="left">
+                <h1>Sinta O Sabor Autêntico &
+                    <br>
+                    Original De Nós
+                </h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum non lacinia ligula. In lobortis, odio sed maximus vestibulum, est ligula vulputate tellus.</p>
+                <a href="#">Ver mais <ion-icon name="arrow-forward-outline"></ion-icon></a>
+            </div>
+            <div class="content right"  data-animate="right">
+                <a target="_blank" href="https://www.pexels.com/pt-br/foto/mulher-encantada-com-um-copo-de-bebida-navegando-no-smartphone-em-um-cafe-3783527/"><img src="imagens/img1.jpg"></a>
+            </div>
+        </section>
+
+        <section class="section-2">
+            <div class="especialidades-h1">
+                <h1>Especialidades</h1>
+            </div>
+
+            <div class="especialidades-container">
+                <h1>Nossa cozinha especial</h1>
+
+                <div class="box-container">
+                    <div class="box" data-animate="left">
+                        <span><ion-icon name="cafe-outline"></ion-icon></span>
+                        <h2>Café</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum non lacinia ligula.</p>
+                    </div>
+                    <div class="box" data-animate="left">
+                        <span><ion-icon name="cafe-outline"></span>
+                        <h2>Café</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum non lacinia ligula.</p>
+                    </div>
+                    <div class="box" data-animate="right">
+                        <span><ion-icon name="cafe-outline"></ion-icon></span>
+                        <h2>Café</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum non lacinia ligula.</p>
+                    </div>
+                    <div class="box" data-animate="right">
+                        <span><ion-icon name="cafe-outline"></ion-icon></span>
+                        <h2>Café</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum non lacinia ligula.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-3">
+            <div class="box-background"></div>
+
+            <div class="img-box">
+                <a target="_blank" href="https://www.pexels.com/pt-br/foto/banquetas-de-bar-marrom-em-frente-a-mesa-retangular-3262277/"><img src="imagens/img2.jpg" data-animate="left"></a>
+    
+                <div class="about-menssage" data-animate="right">
+                    <h1>Sobre nós</h1>
+                    <h2>Sempre atendemos melhor</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum non lacinia ligula.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-4">
+            <div class="about-info">
+                <ul class="info">
+                    <li data-animate="left">
+                        <h1>4</h1>
+                        <h2>Restaurantes</h2>
+                    </li>
+                    <li data-animate="left">
+                        <h1>9</h1>
+                        <h2>Anos de Experiência</h2>
+                    </li>
+                    <li data-animate="right">
+                        <h1>+50</h1>
+                        <h2>Pratos no Cardápio</h2>
+                    </li>
+                    <li data-animate="right">
+                        <h1>+250</h1>
+                        <h2>Clientes Felizes</h2>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section-5">
+            <div class="especialidades-h1">
+                <h1>Pratos Especiais</h1>
+            </div>
+            
+            <div class="pratos-container">
+                <h1>Recomendações do Menu</h1>
+
+                <div class="menu-container">
+                    <div class="prato" data-animate="left">
+                        <div class="info-prato">
+                            <h1>Hambúrguer</h1>
+                            <hr>
+                            <h2>R$25</h2>
+                        </div>
+                    </div>
+
+                    <div class="prato" data-animate="right">
+                        <div class="info-prato">
+                            <h1>Carne assada</h1>
+                            <hr>
+                            <h2>R$25</h2>
+                        </div>
+                    </div>
+
+                    <div class="prato" data-animate="left">
+                        <div class="info-prato">
+                            <h1>Milkshake</h1>
+                            <hr>
+                            <h2>R$25</h2>
+                        </div>
+                    </div>
+
+                    <div class="prato" data-animate="right">
+                        <div class="info-prato">
+                            <h1>Empada</h1>
+                            <hr>
+                            <h2>R$25</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-6">
+            <div class="reserva-container">
+                <div class="reserva-content content" data-animate="left">
+                    <h1>Faça Sua Reserva</h1>
+                    <h2>Faça uma atmosfera romântica aqui</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores sint, possimus exercitationem dignissimos quam illo repudiandae mollitia dolore, et rerum reprehenderit enim repellendus sit aliquid totam facilis saepe quibusdam dolores.</p>
+                </div>
+
+                <div class="form-box content">                    
+                    <div class="form" data-animate="right">
+                        <input type="text" placeholder="Informe seu nome">
+                        <div class="horario-box">
+                            <input type="date">
+                            <input type="time">
+                        </div>
+                        <button>Reservar</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer-left">
+                <div class="logo-box">
+                    <div class="logo"><ion-icon name="invert-mode-outline"></ion-icon></div>
+                    <h1>Coffe House</h1>
+                </div>
+                <p>&copy; Copyright Coffe House. Todos os direitos reservados</p>
+            </div>
+
+            <div class="footer-right">
+                <ul class="termos">
+                    <li><a href="#">Política de privacidade</a></li>
+                    <li><a href="#">Termos de uso</a></li>
+                </ul>
+                
+                <ul class="sociais">
+                    <li><a href="mailto:pedro.lucs0089@gmail.com"><ion-icon name="mail-outline"></ion-icon></a></li>
+                    <li><a href="https://www.instagram.com/pe.lucs"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                    <li><a href="https://www.linkedin.com/in/pedro-lucas-083/"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                    <li><a href="https://github.com/pelucs"><ion-icon name="logo-github"></ion-icon></a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
